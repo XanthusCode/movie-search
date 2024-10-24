@@ -1,8 +1,12 @@
-# React + Vite
+# Movie Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web para buscar películas utilizando la API de The Movie Database (TMDb). Permite a los usuarios ingresar un término de búsqueda y ver los resultados en forma de tarjetas. Al hacer hover sobre una tarjeta, se muestra el título y la descripción de la película.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías utilizadas
+
+- **React**: Librería de JavaScript para construir interfaces de usuario.
+- **Axios**: Cliente HTTP para realizar peticiones a la API.
+- **CSS**: Estilos personalizados para mejorar la apariencia de la aplicación.
+
+

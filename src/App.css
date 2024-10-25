@@ -1,0 +1,132 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Estilos personalizados para el scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho del scrollbar */
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+html {
+  scroll-behavior: smooth; /* Efecto suave al desplazarse */
+}
+
+input {
+  font-size: 18px;
+  padding: 10px; 
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 50% ; 
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; 
+  margin-left: 8px;
+}
+
+button:hover {
+  outline: none;
+  border: none;
+  background-color: #0056b3;
+  transform: translateY(-2px); 
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.movie-card {
+  width: 200px; 
+  height: 350px; 
+  position: relative;
+  overflow: hidden; 
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 10px;
+ 
+}
+
+.movie-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+img {
+  max-width: 100%;
+  height: auto; 
+  border-radius: 10px 10px 0 0; 
+}
+
+.movie-info {
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7); 
+  color: white; 
+  transition: opacity 0.3s; 
+}
+
+
+/* Media Queries para Responsive */
+@media (max-width: 768px) {
+  input {
+    width: 70%; /* Más ancho en pantallas pequeñas */
+  }
+
+  .movie-card {
+    width: 150px; 
+    height: 250px; 
+  }
+}
+
+@media (max-width: 480px) {
+  input {
+    width: 90%; /* Aún más ancho en dispositivos pequeños */
+  }
+
+  button{
+    margin-top: 10px;
+    width: 80%;
+  }
+
+  .movie-card {
+    width: 100%; 
+    height: auto; /* Ajuste automático */
+  }
+
+  ul {
+    flex-direction: column; /* Colocar cards en columna */
+  }
+}

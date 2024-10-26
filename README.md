@@ -1,12 +1,22 @@
-# Movie Search
+# Proyecto de Películas
 
-Una aplicación web para buscar películas utilizando la API de The Movie Database (TMDb). Permite a los usuarios ingresar un término de búsqueda y ver los resultados en forma de tarjetas. 
+Este proyecto es una aplicación web diseñada para mostrar una lista de películas. Los usuarios pueden buscar y ver detalles sobre cada película. La aplicación está construida con React, utilizando Vite.js como bundler y Axios para manejar las peticiones HTTP. El diseño es responsivo, asegurando que se vea bien en dispositivos de diferentes tamaños.
+
+## Características
+
+- Visualización de una lista de películas.
+- Búsqueda y filtrado de películas.
+- Detalles de cada película en un modal.
+- Estilo moderno y responsivo.
+- Efectos visuales como animaciones en las tarjetas de películas.
+
+## Tecnologías Utilizadas
+
+- **Frontend**: React, Vite.js, CSS
+- **Manejo de Estado**: React Hooks
+- **Petición HTTP**: Axios
+- **Gestión de Estilos**: CSS personalizado con soporte para estilos responsivos
 
 
-## Tecnologías utilizadas
-
-- **React**: Librería de JavaScript para construir interfaces de usuario.
-- **Axios**: Cliente HTTP para realizar peticiones a la API.
-- **CSS**: Estilos personalizados para mejorar la apariencia de la aplicación.
 
 
